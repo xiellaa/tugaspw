@@ -14,7 +14,7 @@ include 'sidebar.php';
         <p><strong>Email:</strong> angella@example.com</p>
         <p><strong>Jurusan:</strong> Teknik Informatika</p>
         <p><strong>Tentang:</strong> Saya suka membuat aplikasi sederhana dan belajar web dev.</p>
-        <p><strong>TEsttt</strong></p>
+        <p><strong>WEBBBBBBBBBBBBBBBBB</strong></p>
       </div>
     </div>
   </div>
