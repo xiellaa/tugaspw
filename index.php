@@ -1,3 +1,9 @@
+<?php
+$nama = "Angell";
+$umur = 17;
+$prodi = "Teknik Nuklir";
+?>
+
 <?php include 'header.php'; ?>
 <?php include 'sidebar.php'; ?>
 
@@ -6,9 +12,12 @@
   <!-- Header -->
   <section class="content-header text-center mt-4">
     <div class="container-fluid">
-      <h1 class="display-5 text-muted">Selamat Datang di</h1>
-      <h2 class="fw-bold text-primary">Dashboard Project Angella</h2>
-      <p class="lead text-secondary">Pantau aktivitas dan tugas kamu dengan tampilan yang ringan dan lembut 💫</p>
+      <h1 class="display-5 text-muted">Selamat Datang, <?= $nama; ?>! 👋</h1>
+      <h2 class="fw-bold text-primary">Di dashboard Project <?= $nama; ?></h2>
+      <p class="lead text-secondary">
+        Kamu berumur <?= $umur; ?> tahun dan sedang menempuh studi di jurusan <strong><?= $prodi; ?></strong>.
+      </p>
+      <p class="text-muted">Pantau aktivitas dan tugas kamu dengan tampilan yang ringan dan lembut 💫</p>
     </div>
   </section>
 

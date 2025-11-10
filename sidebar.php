@@ -9,25 +9,31 @@
   <div class="sidebar">
     <nav class="mt-2">
       <ul class="nav nav-pills nav-sidebar flex-column" role="menu">
+
+        <!-- Home -->
         <li class="nav-item">
           <a href="index.php" class="nav-link active">
             <i class="nav-icon fas fa-home"></i>
             <p>Home</p>
           </a>
         </li>
-      
-        <!-- <li class="nav-item">
-          <a href="pages/examples/profile.html" class="nav-link">
+
+        <!-- Profile -->
+        <li class="nav-item">
+          <a href="profile.php" class="nav-link">
             <i class="nav-icon fas fa-user"></i>
-            <p>AdminLTE</p> -->
+            <p>Profile</p>
           </a>
         </li>
+
+        <!-- Settings -->
         <li class="nav-item">
           <a href="settings.php" class="nav-link">
             <i class="nav-icon fas fa-cog"></i>
             <p>Settings</p>
           </a>
         </li>
+
       </ul>
     </nav>
   </div>
